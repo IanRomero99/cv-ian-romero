@@ -1,121 +1,251 @@
-* {
-    box-sizing: border-box;
-    /* font */
-    font-family: 'Quicksand', sans-serif;
-}
-
-body {
-    margin: 0;
-    background-image: url("../img/gris.png");
-    background-attachment: fixed;
-}
-
-.row:after {
-    content: "";
-    display: table;
-    clear: both;
-}
-
-html {
-    scroll-behavior: smooth;
-}
-
-.relleno-columnas {
-    padding-top: 4vw;
-    padding-left: 10vw;
-    padding-right: 10vw;
-    padding-bottom: 4vw;
-}
-
-#header {
-    text-align: center;
-    font-size: 4.5vw;
-    padding-bottom: 5vw;
-    padding-top: 5vw;
-    font-size: 2vw;
-}
-
-.sticky {
-    position: fixed;
-}
-
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: rgba(128, 128, 128, 0.74);
-    position: fixed;
-    top: 0;
-    width: 100%;
-}
-
-li {
-    float: right;
-}
-
-li a {
-    font-weight: 900;
-    display: block;
-    color: black;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-
-a:hover {
-    background-color: rgb(255, 51, 0);
-}
-
-li.active {
-    background-color: #4CAF50;
-}
-
-#section1 {
-    font-size: 1vw;
-    width: 100%;
-    text-align: left;
-    float: left;
-}
-
-.column2 {
-    width: 50%;
-    float: left;
-    padding: 7%;
-    padding-left: 7%;
-}
-
-img {
-    float: left;
-    width: 25vw;
-    height: 30vw;
-    padding: 3vw;
-}
-
-.column1 {
-    width: 100%;
-    float: left;
-    padding: 2vw;
-}
-
-#section3 {
-    font-size: 1vw;
-    width: 100%;
-    float: left;
-}
-
-.column2 iframe {
-    float: left;
-    width: 40vw;
-    height: 30vw;
-    padding: 3vw;
-}
-
-h1 {
-    text-align: center;
-    color: white;
-}
-
-.progress {
-    color: green;
-}
+                                                                    * {
+                                                                        box-sizing: border-box;
+                                                                        /* font */
+                                                                        font-family: 'Quicksand', sans-serif;
+                                                                    }
+                                                                    
+                                                                    body {
+                                                                        margin: 0;
+                                                                        background-image: url("../img/gris.png");
+                                                                        background-attachment: fixed;
+                                                                    }
+                                                                    
+                                                                    .row:after {
+                                                                        content: "";
+                                                                        display: table;
+                                                                        clear: both;
+                                                                    }
+                                                                    
+                                                                    html {
+                                                                        scroll-behavior: smooth;
+                                                                    }
+                                                                    
+                                                                    .relleno-columnas {
+                                                                        padding-top: 4vw;
+                                                                        padding-left: 10vw;
+                                                                        padding-right: 10vw;
+                                                                        padding-bottom: 4vw;
+                                                                    }
+                                                                    
+                                                                    #header {
+                                                                        text-align: center;
+                                                                        font-size: 5vw;
+                                                                        padding-bottom: 5vw;
+                                                                        padding-top: 5vw;
+                                                                        font-size: 2vw;
+                                                                    }
+                                                                    
+                                                                    .sticky {
+                                                                        position: fixed;
+                                                                    }
+                                                                    
+                                                                    ul {
+                                                                        list-style-type: none;
+                                                                        margin: 0;
+                                                                        padding: 0;
+                                                                        overflow: hidden;
+                                                                        background-color: rgba(128, 128, 128, 0.74);
+                                                                        position: fixed;
+                                                                        top: 0;
+                                                                        width: 100%;
+                                                                    }
+                                                                    
+                                                                    li {
+                                                                        float: right;
+                                                                    }
+                                                                    
+                                                                    li a {
+                                                                        font-weight: 900;
+                                                                        display: block;
+                                                                        color: black;
+                                                                        text-align: center;
+                                                                        padding: 14px 16px;
+                                                                        text-decoration: none;
+                                                                    }
+                                                                    
+                                                                    a:hover {
+                                                                        background-color: rgb(255, 51, 0);
+                                                                    }
+                                                                    
+                                                                    li.active {
+                                                                        background-color: #4CAF50;
+                                                                    }
+                                                                    
+                                                                    #section1 {
+                                                                        font-size: 1.5vw;
+                                                                        width: 100%;
+                                                                        text-align: left;
+                                                                        float: left;
+                                                                    }
+                                                                    
+                                                                    #section2 {
+                                                                        font-size: 1vw;
+                                                                        width: 100%;
+                                                                        text-align: left;
+                                                                        float: left;
+                                                                        padding-bottom: 5vw;
+                                                                        padding-top: 5vw;
+                                                                        font-size: 1.5vw;
+                                                                    }
+                                                                    
+                                                                    .column2 {
+                                                                        width: 50%;
+                                                                        float: left;
+                                                                        padding: 7%;
+                                                                        padding-left: 7%;
+                                                                    }
+                                                                    
+                                                                    .column2 img {
+                                                                        float: left;
+                                                                        width: 25vw;
+                                                                        height: 30vw;
+                                                                        padding: 3vw;
+                                                                    }
+                                                                    
+                                                                    .column3 {
+                                                                        width: 50%;
+                                                                        float: left;
+                                                                        padding: 7%;
+                                                                        padding-left: 7%;
+                                                                    }
+                                                                    
+                                                                    .column3 img {
+                                                                        float: left;
+                                                                        width: 150%;
+                                                                        height: 30vw;
+                                                                        padding: 3vw;
+                                                                    }
+                                                                    
+                                                                    .column4 {
+                                                                        width: 50%;
+                                                                        float: left;
+                                                                        padding: 7%;
+                                                                        padding-left: 7%;
+                                                                    }
+                                                                    
+                                                                    .column4 img {
+                                                                        float: left;
+                                                                        width: 130%;
+                                                                        height: 30vw;
+                                                                        padding: 3vw;
+                                                                    }
+                                                                    
+                                                                    .column1 {
+                                                                        width: 100%;
+                                                                        float: left;
+                                                                        padding: 2vw;
+                                                                    }
+                                                                    
+                                                                    #section3 {
+                                                                        font-size: 1vw;
+                                                                        width: 100%;
+                                                                        float: left;
+                                                                        padding-bottom: 5vw;
+                                                                        padding-top: 5vw;
+                                                                        font-size: 1.5vw;
+                                                                    }
+                                                                    
+                                                                    .column2 iframe {
+                                                                        float: left;
+                                                                        width: 40vw;
+                                                                        height: 30vw;
+                                                                        padding: 3vw;
+                                                                    }
+                                                                    
+                                                                    h1 {
+                                                                        text-align: center;
+                                                                        color: white;
+                                                                        font-size: 3vw;
+                                                                    }
+                                                                    
+                                                                    h2 {
+                                                                        font-size: 2.5vw;
+                                                                    }
+                                                                    
+                                                                    p {
+                                                                        font-size: 1, 5vw;
+                                                                    }
+                                                                    
+                                                                    #section4 {
+                                                                        font-size: 1.5vw;
+                                                                        width: 100%;
+                                                                        float: left;
+                                                                        text-align: center;
+                                                                        padding-bottom: 5vw;
+                                                                        padding-top: 5vw;
+                                                                    }
+                                                                    
+                                                                    iframe {
+                                                                        width: 45vw;
+                                                                        height: 30vw;
+                                                                        padding: 3vw;
+                                                                        text-align: center;
+                                                                    }
+                                                                    
+                                                                    progress[value] {
+                                                                        border: 1px inset black;
+                                                                        background-color: white;
+                                                                        border-radius: 20px;
+                                                                        overflow: hidden;
+                                                                    }
+                                                                    
+                                                                    progress::-webkit-progress-value {
+                                                                        overflow: hidden;
+                                                                        background: purple;
+                                                                        border-radius: 20px;
+                                                                    }
+                                                                    
+                                                                    #footer {
+                                                                        width: 100%;
+                                                                        text-align: left;
+                                                                        float: left;
+                                                                        padding-bottom: 5vw;
+                                                                        padding-top: 5vw;
+                                                                        font-size: 1.5vw;
+                                                                        color: white;
+                                                                    }
+                                                                    
+                                                                    .column5 {
+                                                                        width: 50%;
+                                                                        float: left;
+                                                                        padding: 7%;
+                                                                        padding-left: 7%;
+                                                                    }
+                                                                    
+                                                                    .column5 iframe {
+                                                                        width: 150%;
+                                                                        height: 30vw;
+                                                                        padding: 3vw;
+                                                                        text-align: center;
+                                                                    }
+                                                                    
+                                                                    @media screen and (max-width:750px) {
+                                                                        .flex:not(#header) {
+                                                                            display: block;
+                                                                        }
+                                                                        #header {
+                                                                            width: 100%;
+                                                                        }
+                                                                        h1 {
+                                                                            font-size: 5vw;
+                                                                        }
+                                                                        h2 {
+                                                                            font-size: 4vw;
+                                                                        }
+                                                                        p {
+                                                                            font-size: 2.2vw;
+                                                                        }
+                                                                        ul {
+                                                                            width: 100%;
+                                                                        }
+                                                                        li {
+                                                                            font-size: 2.5vw;
+                                                                        }
+                                                                        iframe {
+                                                                            width: 90vw;
+                                                                            height: 60vw;
+                                                                        }
+                                                                        .column4 img {
+                                                                            width: 110%;
+                                                                        }
+                                                                    }
