@@ -177,6 +177,11 @@
         font-size: 1.5vw;
     }
     
+    .social i {
+        font-size: 2.8vw;
+        color: blue;
+    }
+    
     #section4 {
         font-size: 1.5vw;
         width: 100%;
@@ -261,6 +266,9 @@
         iframe {
             width: 90vw;
             height: 60vw;
+        }
+        .social i {
+            font-size: 4vw;
         }
         .column3 {
             width: 100%;
