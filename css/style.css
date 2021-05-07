@@ -303,7 +303,7 @@ progress::-webkit-progress-value {
         background-color: white;
         border-radius: 20px;
         overflow: hidden;
-        width: 60vw;
-        height: 10vw;
+        width: 30vw;
+        height: 7vw;
     }
 }
